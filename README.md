@@ -134,4 +134,7 @@ Pronto!Somente com isso já conseguiremos criar nossa tela de enviar email, pode
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4ffae78aad6df8f599645bf44706f86998827b2
