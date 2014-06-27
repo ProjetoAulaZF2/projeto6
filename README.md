@@ -15,7 +15,7 @@ Criando uma classe para configurar o email
 --------------------------------------------
 
 Vamos criar uma classe para configurar nosso email dentro do módulo de usuário com o seguinto código:
-
+~~~php
 	<?php
 	namespace Usuario\Model;
 
@@ -42,9 +42,9 @@ Vamos criar uma classe para configurar nosso email dentro do módulo de usuário
 	    }
 
 	}
-
+~~~
 Depois vamos criar uma controller só para fazer o envio dentro do módulo de usuário também, com o seguinte código:
-
+~~~php
 	<?php
 	namespace Usuario\Controller;
 
@@ -80,10 +80,10 @@ Depois vamos criar uma controller só para fazer o envio dentro do módulo de us
 		
 	    }
 	}
-
+~~~
 
 Agora vamos criar nossa action para o envio do email:
-
+~~~php
 	<?php
 	$title = 'Enviar o email';
 	$this->headTitle($title);
@@ -116,7 +116,7 @@ Agora vamos criar nossa action para o envio do email:
 	    </div>
 	</form>
 	</div>
-
+~~~
 Pronto!Somente com isso já conseguiremos criar nossa tela de enviar email, podemos fazer um form para contatos e etc...
 
 
