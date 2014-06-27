@@ -83,7 +83,7 @@ Depois vamos criar uma controller só para fazer o envio dentro do módulo de us
 ~~~
 
 Agora vamos criar nossa action para o envio do email:
-~~~php
+~~~html
 	<?php
 	$title = 'Enviar o email';
 	$this->headTitle($title);
